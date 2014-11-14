@@ -41,8 +41,8 @@
 		6C31CB3F1A168D2F00F3090B /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C31CB441A168D2F00F3090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C31CB451A168D2F00F3090B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		6CC8336E1A16904700580578 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		6CC8336F1A16904700580578 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		6CC8336E1A16904700580578 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../Test.h; sourceTree = "<group>"; };
+		6CC8336F1A16904700580578 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,6 @@
 		6C31CB1D1A168D2F00F3090B = {
 			isa = PBXGroup;
 			children = (
-				6CC8336E1A16904700580578 /* Test.h */,
-				6CC8336F1A16904700580578 /* Test.m */,
 				6C31CB281A168D2F00F3090B /* Git Test */,
 				6C31CB421A168D2F00F3090B /* Git TestTests */,
 				6C31CB271A168D2F00F3090B /* Products */,
@@ -86,6 +84,8 @@
 		6C31CB281A168D2F00F3090B /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				6CC8336E1A16904700580578 /* Test.h */,
+				6CC8336F1A16904700580578 /* Test.m */,
 				6C31CB2D1A168D2F00F3090B /* AppDelegate.h */,
 				6C31CB2E1A168D2F00F3090B /* AppDelegate.m */,
 				6C31CB301A168D2F00F3090B /* ViewController.h */,
